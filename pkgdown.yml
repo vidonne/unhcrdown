@@ -1,9 +1,9 @@
-pandoc: 3.1.11
-pkgdown: 2.1.1
+pandoc: 3.8.3
+pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   create_html_slides: create_html_slides.html
-last_built: 2025-01-17T13:00Z
+last_built: 2026-09-03T12:27Z
 urls:
-  reference: https://unhcr-dataviz.github.io/unhcrdown/reference
-  article: https://unhcr-dataviz.github.io/unhcrdown/articles
+  reference: https://vidonne.github.io/unhcrdown/reference
+  article: https://vidonne.github.io/unhcrdown/articles

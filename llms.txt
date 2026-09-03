@@ -1,0 +1,157 @@
+# unhcrdown [![unhcrdown package hex sticker](reference/figures/unhcrdown_sticker.png)](https://github.com/vidonne/unhcrdown)
+
+Streamline your document creation process with the
+[unhcrdown](https://github.com/vidonne/unhcrdown) R package. It provides
+a comprehensive set of templates designed to align your reports and
+presentations with **UNHCR’s brand guidelines**. This package offers
+ready-to-use R Markdown templates for various document types, ensuring
+consistent UNHCR visual identity across your communications.
+
+## Features
+
+- A collection of professional templates following UNHCR brand
+  guidelines
+- Ready-to-use formats for reports, presentations, and websites
+- Easy-to-use functions that work seamlessly with R Markdown
+- Consistent styling across all document types
+
+## Installation
+
+Get started by installing the
+[unhcrdown](https://github.com/vidonne/unhcrdown) package from CRAN
+with:
+
+``` r
+
+install.packages("unhcrdown")
+```
+
+Or retrieve the development version from Github using the
+[pak](https://pak.r-lib.org/) package:
+
+``` r
+
+# If pak is not yet installed, uncomment the following line:
+# install.packages("pak")
+
+pak::pkg_install("vidonne/unhcrdown")
+```
+
+## Usage
+
+The [unhcrdown](https://github.com/vidonne/unhcrdown) templates are
+designed for R Markdown projects, any of the available format can simply
+be added to `output` parameter of the R Markdown `yaml` header. For
+example:
+
+``` yaml
+---
+title: "UNHCR Branded Report"
+author: "First Last Name"
+date: "`r Sys.Date()`"
+output: unhcrdown::paged_report
+---
+```
+
+### Available Formats
+
+- **PDF Reports**: Two HTML to PDF options:
+
+  ``` yaml
+  output: unhcrdown::paged_report  # Full template with cover
+  # or
+  output: unhcrdown::paged_simple  # Streamlined version
+  ```
+
+- **Word Documents**: Professional reports using
+  [`officedown::rdocx_document`](https://davidgohel.github.io/officedown/reference/rdocx_document.html)
+
+  ``` yaml
+  output: unhcrdown::docx_simple
+  ```
+
+- **PowerPoint**: Presentation slides
+
+  ``` yaml
+  output: unhcrdown::pptx_slides
+  ```
+
+- **HTML Slides**: Web presentations
+
+  ``` yaml
+  output: unhcrdown::html_slides
+  ```
+
+- **HTML Page**: Web based documents
+
+  ``` yaml
+  output: unhcrdown::html_page
+  ```
+
+### RStudio Integration
+
+Create new documents directly from RStudio:
+
+1.  File → New File → R Markdown
+2.  Select “From Template”
+3.  Choose any [unhcrdown](https://github.com/vidonne/unhcrdown)
+    template
+
+## Additional UNHCR Tools
+
+- [**unhcrthemes**](https://github.com/unhcr-dataviz/unhcrthemes): UNHCR
+  branded ggplot2 theme and color palettes
+- [**refugees**](https://github.com/PopulationStatistics/refugees):
+  Access to [UNHCR Refugee Data
+  Finder](https://www.unhcr.org/refugee-statistics) API
+- [**quarto-html-unhcr**](https://github.com/unhcr-dataviz/quarto-html-unhcr):
+  Quarto extension for UNHCR branded HTML documents
+- [**quarto-revealjs-unhcr**](https://github.com/unhcr-dataviz/quarto-revealjs-unhcr):
+  Quarto extension for UNHCR branded presentations
+- [**Data Visualization Platform**](https://dataviz.unhcr.org/): UNHCR’s
+  data visualization guidelines and tools
+
+## Acknowledgements
+
+We extend our gratitude to the creators of the
+[`pagedown`](https://github.com/rstudio/pagedown) package that
+influenced the development of `unhcrdown`.
+
+## Contribution and Code of Conduct
+
+Contributions to [unhcrdown](https://github.com/vidonne/unhcrdown) are
+highly valued. To ensure a welcoming and inclusive community, we follow
+our [Contributor Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+If you have suggestions, uncover bugs, or envision new features, kindly
+submit an [issue on
+GitHub](https://github.com/vidonne/unhcrdown/issues).
+
+## License
+
+This package is distributed under the [MIT
+License](https://github.com/vidonne/unhcrdown/blob/master/LICENSE.md).
+
+# Package index
+
+## All functions
+
+- [`docx_simple()`](https://vidonne.github.io/unhcrdown/reference/docx_simple.md)
+  : Convert to UNHCR branded Word document
+- [`html_page()`](https://vidonne.github.io/unhcrdown/reference/html_page.md)
+  : Convert to UNHCR branded HTML website
+- [`html_slides()`](https://vidonne.github.io/unhcrdown/reference/html_slides.md)
+  : Convert to UNHCR branded HTML presentation
+- [`paged_report()`](https://vidonne.github.io/unhcrdown/reference/paged_report.md)
+  : Function for UNHCR paged report template
+- [`paged_simple()`](https://vidonne.github.io/unhcrdown/reference/paged_simple.md)
+  : Function for UNHCR paged simple template
+- [`pptx_slides()`](https://vidonne.github.io/unhcrdown/reference/pptx_slides.md)
+  : Convert to UNHCR branded Powerpoint presentation
+
+# Articles
+
+### All vignettes
+
+- [Create UNHCR HTML
+  Presentation](https://vidonne.github.io/unhcrdown/articles/create_html_slides.md):

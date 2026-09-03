@@ -1,13 +1,13 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# unhcrdown <a href="https://github.com/unhcr-dataviz/unhcrdown"><img src='man/figures/unhcrdown_sticker.png' align="right" width="140" alt="unhcrdown package hex sticker" /></a>
+# unhcrdown <a href="https://github.com/vidonne/unhcrdown"><img src='man/figures/unhcrdown_sticker.png' align="right" width="140" alt="unhcrdown package hex sticker" /></a>
 
 <!-- badges: start -->
 
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![R-CMD-check](https://github.com/unhcr-dataviz/unhcrdown/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/unhcr-dataviz/unhcrdown/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/vidonne/unhcrdown/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/vidonne/unhcrdown/actions/workflows/R-CMD-check.yaml)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/unhcrdown)](https://CRAN.R-project.org/package=unhcrdown)
 <!-- badges: end -->
@@ -42,7 +42,7 @@ package:
 # If pak is not yet installed, uncomment the following line:
 # install.packages("pak")
 
-pak::pkg_install("unhcr-dataviz/unhcrdown")
+pak::pkg_install("vidonne/unhcrdown")
 ```
 
 ## Usage
@@ -131,9 +131,9 @@ and inclusive community, we follow our [Contributor Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 If you have suggestions, uncover bugs, or envision new features, kindly
 submit an [issue on
-GitHub](https://github.com/unhcr-dataviz/unhcrdown/issues).
+GitHub](https://github.com/vidonne/unhcrdown/issues).
 
 ## License
 
 This package is distributed under the [MIT
-License](https://github.com/unhcr-dataviz/unhcrdown/blob/master/LICENSE.md).
+License](https://github.com/vidonne/unhcrdown/blob/master/LICENSE.md).

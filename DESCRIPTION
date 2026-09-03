@@ -13,9 +13,9 @@ Description: Create United Nations High Commissioner for Refugees (UNHCR)
     brand guidelines for creating professional PDF reports, Word documents,
     PowerPoint presentations, and HTML outputs.
 License: MIT + file LICENSE
-URL: https://github.com/unhcr-dataviz/unhcrdown,
-    https://unhcr-dataviz.github.io/unhcrdown/
-BugReports: https://github.com/unhcr-dataviz/unhcrdown/issues
+URL: https://github.com/vidonne/unhcrdown,
+    https://vidonne.github.io/unhcrdown/
+BugReports: https://github.com/vidonne/unhcrdown/issues
 Imports:
     bslib,
     magick,
@@ -28,8 +28,8 @@ Suggests:
     knitr
 VignetteBuilder:
     knitr
-Config/Needs/website: unhcr-dataviz/unhcrtemplate
+Config/Needs/website: vidonne/unhcrtemplate
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+Config/roxygen2/version: 8.1.0

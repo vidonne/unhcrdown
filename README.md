@@ -105,15 +105,15 @@ Create new documents directly from RStudio:
 
 ## Additional UNHCR Tools
 
-- [**unhcrthemes**](https://github.com/unhcr-dataviz/unhcrthemes): UNHCR
+- [**unhcrthemes**](https://github.com/vidonne/unhcrthemes): UNHCR
   branded ggplot2 theme and color palettes
-  <!-- * [**unhcrdown**](https://github.com/unhcr-dataviz/unhcrdown): UNHCR templates for R Markdown -->
+  <!-- * [**unhcrdown**](https://github.com/vidonne/unhcrdown): UNHCR templates for R Markdown -->
 - [**refugees**](https://github.com/PopulationStatistics/refugees):
   Access to [UNHCR Refugee Data
   Finder](https://www.unhcr.org/refugee-statistics) API
-- [**quarto-html-unhcr**](https://github.com/unhcr-dataviz/quarto-html-unhcr):
+- [**quarto-html-unhcr**](https://github.com/vidonne/quarto-html-unhcr):
   Quarto extension for UNHCR branded HTML documents
-- [**quarto-revealjs-unhcr**](https://github.com/unhcr-dataviz/quarto-revealjs-unhcr):
+- [**quarto-revealjs-unhcr**](https://github.com/vidonne/quarto-revealjs-unhcr):
   Quarto extension for UNHCR branded presentations
 - [**Data Visualization Platform**](https://dataviz.unhcr.org/): UNHCR’s
   data visualization guidelines and tools
